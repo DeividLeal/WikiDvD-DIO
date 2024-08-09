@@ -4,41 +4,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
+    <title>WikiDvD</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="./assets/script.js" defer></script>
 </head>
 <body>
 
-    <div>   
+    <header class="menu-init">   
         <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
+            <figure> 
+                <img src="./assets/images/logo-marca.png"alt="Logotipo" width="95"/>
+            </figure>
         </div>
-    </div>
+    
+            <nav class="menu">
+                <ul class="nav-bar">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#biografia">Biografia</a></li>
+                    <li><a href="#premios">Prêmios</a></li>
+                    <li><a href="#performance">Performance</a></li>
+                </ul>
+            </nav>
+    </header>
 
-    <div class="bar"></div>
+    <header class="bar"></header>
 
-    <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
+    <main class="content">
+        <nav class="sidebar">
+            <h2>Vídeos da Nicki Minaj</h2>
             <ul>
-                <li><a href="#">Links</a></li>
+            <li><a href="https://www.youtube.com/watch?v=4JipHEz53sU" target="_blank">Super Bass</a></li>
+            <li><a href="https://www.youtube.com/watch?v=LDZX4ooRsWs" target="_blank">Anaconda</a></li>
+            <li><a href="https://www.youtube.com/watch?v=4JipHEz53sU" target="_blank">Starships</a></li>
             </ul>
-        </div>
+        </nav>
 
-        <div class="main">
-            
-        </div>
+        <header class="main">
+            <h1 id="inicio">Nicki Minaj</h1>
+            <hr/>
+            <p> <strong>Nicki Minaj</strong> é uma cantora, rapper, compositora e atriz trinidiana. Ela é conhecida por sua música pop e hip hop, e é considerada uma das artistas mais influentes da indústria musical. Seus sucessos incluem músicas como "Super Bass", "Anaconda" e "Starships". Além de sua carreira musical, Nicki Minaj também atuou em filmes como "The Other Woman" e "Barbershop: The Next Cut". Ela é conhecida por seu estilo único e suas performances energéticas no palco. Nicki Minaj já recebeu vários prêmios ao longo de sua carreira, incluindo American Music Awards, MTV Video Music Awards e Billboard Music Awards.</p>
 
-        <div class="anchors">
-            <h2>Neste Artigo</h2>
+            <figure>
+                <img src="./assets/images/Nicki-Minaj-Wallpapers.jpg" alt="Foto de Nicki Minaj" width="500" />
+                <figcaption>Foto de Nicki Minaj</figcaption>
+            </figure>
+            <h2 id="biografia">Biografia</h2>
+            <hr/>
+            <p>Nicki Minaj, nascida Onika Tanya Maraj, é uma cantora, rapper, compositora e atriz trinidiana. Ela é conhecida por sua música pop e hip hop e é considerada uma das artistas mais influentes da indústria musical. Suas músicas de sucesso incluem "Super Bass", "Anaconda" e "Starships". Além de sua carreira musical, Nicki Minaj também apareceu em filmes como "The Other Woman" e "Barbershop: The Next Cut". Ela é conhecida por seu estilo único e performances energéticas no palco. Nicki Minaj recebeu inúmeros prêmios ao longo de sua carreira, incluindo American Music Awards, MTV Video Music Awards e Billboard Music Awards.</p>
+            <figure>
+                <img src="./assets/images/rs-165726-454101740.webp" alt="Foto de Nicki Minaj no VMA 2014" width="500" />
+                <figcaption>Foto de Nicki Minaj no VMA 2014</figcaption>
+            </figure>
+            <h2 id="premios">Prêmios</h2>
+            <hr/>
+            <p><strong>Ao longo de sua carreira, Nicki Minaj recebeu vários prêmios, incluindo:</strong></p>
             <ul>
-                <li><a href="#">Âncoras</a></li>
+                <li>American Music Awards</li>
+                <li>MTV Video Music Awards</li>
+                <li>Billboard Music Awards</li>
+                <li>BET Awards</li>
+                <li>Grammy Awards</li>
+                <li>People's Choice Awards</li>
             </ul>
-        </div>
-    </div>
+            <div class="videoclip">
 
-    <div class="footer">
+                <h2 id="performance">Performance</h2>
+                <hr/>
+                <p><strong>David Guetta - Turn Me On ft. Nicki Minaj (Official Video)</strong></p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YVw7eJ0vGfM?si=kDORBu66FFsSh1MQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p><strong> Nicki Minaj and Beyonce - Feeling Myself (Live at TIDAL Concert) (FULL HD)</strong></p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/P8TagRVp_0I?si=xUVP2X3foi7CFaB8&amp;start=20" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-    </div>
+            </div>
+        </header>
+
+        <nav class="anchors">
+			<h1 id="page-title">Light Mode ON</h1>
+			<button class="button-mode" aria-label="selecionar-modo" id="mode-selector">Dark Mode</button>
+        </nav>
+    </main>
+
+    <footer class="footer">
+        <p>Direitos autorais por Deivid Caldas.</p>
+    </footer>
 </body>
-</html>
+</html> 
